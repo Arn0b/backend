@@ -1,0 +1,16 @@
+{
+  "name": "pro_1",
+  "version": "1.0.0",
+  "description": "Backend pro series",
+  "keywords": [
+    "Javascrpt",
+    "Backend"
+  ],
+  "license": "ISC",
+  "author": "Arnab",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
