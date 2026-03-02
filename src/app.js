@@ -22,4 +22,11 @@ app.use(express.static("public"))
 
 app.use(cookieparser())
 
+
+//import routes
+import userrouter from "../routes/user.routes.js"
+
+//add the routes
+app.use('/user', userrouter) //we use app.use instead of app.get becoz we are injecting middlewares here which takes us to the routes page
+
 export {app}

@@ -4,11 +4,12 @@ import connectionBD from "../db/index.js"
 import dotenv from "dotenv"
 import { app } from "./app.js"
 
+console.log("hello")
 
 dotenv.config({
     path: "./.env"
 })
-// console.log(process.env.PORT)
+console.log(process.env.PORT)
 
 connectionBD()
 .then(()=>{
